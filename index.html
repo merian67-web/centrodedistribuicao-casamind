@@ -1,383 +1,310 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uni.co Comercio S/A | Grupo Uni.co</title>
-    <meta name="description" content="Uni.co Comercio S/A - Comércio atacadista de utensílios de casa, cozinha e decoração. Parte do Grupo Uni.co, com marcas Imaginarium, Puket e MinD.">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monique Pinheiro Padaria e Confeitaria | Porto Velho – RO</title>
+<meta name="description" content="Pães frescos, bolos, doces e salgados de produção própria em Porto Velho, Rondônia. Faça sua encomenda para festas, eventos e o dia a dia.">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Bakery","name":"Monique Pinheiro Padaria e Confeitaria","telephone":"+556932256510","email":"monythaylla3026@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Avenida Rio de Janeiro, 2643","addressLocality":"Porto Velho","addressRegion":"RO","postalCode":"76804-391","addressCountry":"BR"}}
+</script>
 </head>
 <body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
 
-    <!-- Header / Navegação -->
-    <header class="header">
-        <div class="container header-container">
-            <div class="logo">
-                <a href="#home">
-                    <i class="fas fa-cube"></i>
-                    <span>Uni.co <small>Comercio S/A</small></span>
-                </a>
-            </div>
-            <nav class="nav" id="nav">
-                <ul>
-                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="#sobre"><i class="fas fa-building"></i> Sobre</a></li>
-                    <li><a href="#marcas"><i class="fas fa-tags"></i> Marcas</a></li>
-                    <li><a href="#dados"><i class="fas fa-file-alt"></i> Dados</a></li>
-                    <li><a href="#contato"><i class="fas fa-envelope"></i> Contato</a></li>
-                    <li><a href="#privacidade"><i class="fas fa-shield-alt"></i> Privacidade</a></li>
-                </ul>
-            </nav>
-            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
-    </header>
+<header class="topo" id="topo">
+  <div class="wrap topo__in">
+    <a href="#inicio" class="logo"><span class="logo__ico">🥐</span><span>Monique Pinheiro<small>Padaria &amp; Confeitaria</small></span></a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">☰</button>
+    <nav id="nav" class="nav">
+      <a href="#sobre">Sobre</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#encomendas">Encomendas</a>
+      <a href="#faq">Dúvidas</a>
+      <a href="#contato">Contato</a>
+      <a href="#privacidade">Privacidade</a>
+    </nav>
+  </div>
+</header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <span class="badge">Grupo Uni.co</span>
-                <h1>Utensílios, Cozinha & <span class="highlight">Decoração de Lar</span></h1>
-                <p>Comércio atacadista de mercadorias em geral, levando design, inovação e afeto para milhões de lares brasileiros através das marcas Imaginarium, Puket e MinD.</p>
-                <div class="hero-buttons">
-                    <a href="#sobre" class="btn btn-primary"><i class="fas fa-arrow-right"></i> Conheça a Empresa</a>
-                    <a href="#marcas" class="btn btn-outline"><i class="fas fa-star"></i> Nossas Marcas</a>
-                </div>
-            </div>
-            <div class="hero-stats">
-                <div class="stat-card">
-                    <i class="fas fa-calendar-alt"></i>
-                    <span class="stat-number">2009</span>
-                    <span class="stat-label">Abertura</span>
-                </div>
-                <div class="stat-card">
-                    <i class="fas fa-store"></i>
-                    <span class="stat-number">400+</span>
-                    <span class="stat-label">Lojas no Brasil</span>
-                </div>
-                <div class="stat-card">
-                    <i class="fas fa-users"></i>
-                    <span class="stat-number">1.8M+</span>
-                    <span class="stat-label">Clientes Ativos</span>
-                </div>
-            </div>
-        </div>
-    </section>
+<main id="conteudo">
 
-    <!-- Sobre -->
-    <section id="sobre" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2><i class="fas fa-building"></i> Sobre a Uni.co</h2>
-                <p>Uma plataforma de varejo especializado com marcas fortes e propósito</p>
-            </div>
-            <div class="sobre-grid">
-                <div class="sobre-card">
-                    <div class="icon-box"><i class="fas fa-bullseye"></i></div>
-                    <h3>Nosso Propósito</h3>
-                    <p>Desenvolver marcas amadas que despertam alegria e conectam emocionalmente o público jovem e as novas gerações de consumidores.</p>
-                </div>
-                <div class="sobre-card">
-                    <div class="icon-box"><i class="fas fa-warehouse"></i></div>
-                    <h3>Operação Omnichannel</h3>
-                    <p>Atuação integrada entre lojas físicas, franquias, e-commerce e marketplaces, com centro de distribuição estratégico em Biguaçu/SC.</p>
-                </div>
-                <div class="sobre-card">
-                    <div class="icon-box"><i class="fas fa-chart-line"></i></div>
-                    <h3>Presença Nacional</h3>
-                    <p>Mais de 445 franquias e 2.800 pontos de venda multimarcas em todos os estados brasileiros, comercializando milhões de produtos por ano.</p>
-                </div>
-                <div class="sobre-card">
-                    <div class="icon-box"><i class="fas fa-handshake"></i></div>
-                    <h3>Grupo Uni.co</h3>
-                    <p>Controladora das marcas Imaginarium, Puket, Casa MinD e Love Brands, com sede financeira e CD em Santa Catarina.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="hero" id="inicio">
+  <div class="wrap hero__in">
+    <div class="hero__txt">
+      <p class="selo">🔥 Saindo do forno todos os dias</p>
+      <h1>Pão quentinho, bolo de festa e doce que lembra casa.</h1>
+      <p class="lead">Produção própria em Porto Velho. Do café da manhã ao bolo de aniversário, tudo feito com ingredientes selecionados e muito capricho.</p>
+      <div class="botoes">
+        <a class="btn btn--rosa" href="#encomendas">🎂 Fazer encomenda</a>
+        <a class="btn btn--amarelo" href="tel:+556932256510">📞 (69) 3225-6510</a>
+      </div>
+    </div>
+    <div class="hero__vitrine" aria-label="Destaques da vitrine">
+      <button class="bolha b1" data-msg="Pães franceses, de leite e integrais, assados várias vezes ao dia.">🍞<span>Pães</span></button>
+      <button class="bolha b2" data-msg="Bolos decorados para aniversários, casamentos e eventos.">🎂<span>Bolos</span></button>
+      <button class="bolha b3" data-msg="Brigadeiros, beijinhos, trufas e doces finos para festas.">🍫<span>Doces</span></button>
+      <button class="bolha b4" data-msg="Salgados assados e fritos, na hora ou em cento para eventos.">🥟<span>Salgados</span></button>
+      <button class="bolha b5" data-msg="Tortas, cheesecakes e sobremesas geladas.">🍰<span>Tortas</span></button>
+      <p class="bolha-msg" id="bolhaMsg" aria-live="polite">Toque em um ícone para ver o que preparamos.</p>
+    </div>
+  </div>
+</section>
 
-    <!-- Marcas -->
-    <section id="marcas" class="section bg-light">
-        <div class="container">
-            <div class="section-header">
-                <h2><i class="fas fa-tags"></i> Marcas do Grupo</h2>
-                <p>Love brands que encantam e transformam o dia a dia</p>
-            </div>
-            <div class="marcas-grid">
-                <div class="marca-card">
-                    <div class="marca-icon" style="background: linear-gradient(135deg, #ff6b9d, #ff4757);">
-                        <i class="fas fa-gift"></i>
-                    </div>
-                    <h3>Imaginarium</h3>
-                    <p>Design e presentes com DNA de inovação e diversão. Produtos exclusivos para compartilhar experiências.</p>
-                    <span class="tag">Design & Presentes</span>
-                </div>
-                <div class="marca-card">
-                    <div class="marca-icon" style="background: linear-gradient(135deg, #ffa502, #ff6348);">
-                        <i class="fas fa-tshirt"></i>
-                    </div>
-                    <h3>Puket</h3>
-                    <p>Vestuário e acessórios para todas as idades. Design divertido, colorido e criativo que conecta famílias.</p>
-                    <span class="tag">Vestuário & Acessórios</span>
-                </div>
-                <div class="marca-card">
-                    <div class="marca-icon" style="background: linear-gradient(135deg, #a29bfe, #6c5ce7);">
-                        <i class="fas fa-couch"></i>
-                    </div>
-                    <h3>MinD</h3>
-                    <p>Decoração com modernidade e aconchego. Faça você se apaixonar por sua casa todos os dias.</p>
-                    <span class="tag">Decoração & Lar</span>
-                </div>
-                <div class="marca-card">
-                    <div class="marca-icon" style="background: linear-gradient(135deg, #55efc4, #00b894);">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <h3>Love Brands</h3>
-                    <p>Marcas que criam conexões emocionais e experiências memoráveis com os consumidores.</p>
-                    <span class="tag">Lifestyle</span>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="faixa" aria-label="Números">
+  <div class="wrap faixa__in">
+    <div><strong>100%</strong><span>produção própria</span></div>
+    <div><strong>7 dias</strong><span>de atendimento por encomenda</span></div>
+    <div><strong>Porto Velho</strong><span>e região, com retirada no balcão</span></div>
+    <div><strong>Desde 2025</strong><span>adoçando o seu dia</span></div>
+  </div>
+</section>
 
-    <!-- Dados Corporativos -->
-    <section id="dados" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2><i class="fas fa-file-alt"></i> Dados Corporativos</h2>
-                <p>Informações oficiais da Uni.co Comercio S/A</p>
-            </div>
-            <div class="dados-grid">
-                <div class="dados-card">
-                    <h3><i class="fas fa-id-card"></i> Identificação</h3>
-                    <ul class="dados-list">
-                        <li><strong>CNPJ:</strong> 00.399.603/0006-12</li>
-                        <li><strong>Razão Social:</strong> Uni.co Comercio S/A</li>
-                        <li><strong>Porte:</strong> Sem Enquadramento</li>
-                        <li><strong>Natureza Jurídica:</strong> Sociedade Anônima Fechada</li>
-                        <li><strong>Data de Abertura:</strong> 25/11/2009</li>
-                    </ul>
-                </div>
-                <div class="dados-card">
-                    <h3><i class="fas fa-map-marker-alt"></i> Endereço</h3>
-                    <ul class="dados-list">
-                        <li><strong>Logradouro:</strong> Rua Gercino Machado, 207</li>
-                        <li><strong>Bairro:</strong> Beira Rio</li>
-                        <li><strong>CEP:</strong> 88164-290</li>
-                        <li><strong>Município:</strong> Biguaçu</li>
-                        <li><strong>Estado:</strong> Santa Catarina</li>
-                    </ul>
-                </div>
-                <div class="dados-card">
-                    <h3><i class="fas fa-phone-alt"></i> Contato</h3>
-                    <ul class="dados-list">
-                        <li><i class="fas fa-phone"></i> (48) 3024-7777</li>
-                        <li><i class="fas fa-phone"></i> (48) 3205-6400</li>
-                        <li><i class="fas fa-envelope"></i> controladoria@grupounico.com</li>
-                    </ul>
-                </div>
-                <div class="dados-card">
-                    <h3><i class="fas fa-file-invoice"></i> Inscrições Estaduais</h3>
-                    <ul class="dados-list">
-                        <li><strong>MG:</strong> 002004414.00-70</li>
-                        <li><strong>PR:</strong> 09903304-50</li>
-                        <li><strong>RS:</strong> 096/3482432</li>
-                        <li><strong>RS:</strong> 900/0013416</li>
-                        <li><strong>SP:</strong> 824.010.467.119</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="cnae-box">
-                <h3><i class="fas fa-briefcase"></i> Atividade Principal (CNAE)</h3>
-                <p><strong>46.93-1-00</strong> — Comércio atacadista de mercadorias em geral, sem predominância de alimentos ou de insumos agropecuários.</p>
-                <p class="cnae-desc">Comercializamos utensílios de casa, cozinha e decoração de lar em geral.</p>
-            </div>
-        </div>
-    </section>
+<section class="sec" id="sobre">
+  <div class="wrap">
+    <h2>Quem somos</h2>
+    <div class="sobre">
+      <div>
+        <p>A <strong>Monique Pinheiro Padaria e Confeitaria</strong> nasceu em junho de 2025, na Avenida Rio de Janeiro, no bairro Mato Grosso, em Porto Velho. Somos uma empresa familiar que faz da panificação e da confeitaria um trabalho artesanal, com receitas próprias e atenção a cada pedido.</p>
+        <p>Nossa atividade é a fabricação de produtos de padaria e confeitaria com predominância de produção própria. Isso significa que o que chega ao seu balcão ou à sua festa sai da nossa cozinha, não de uma revenda.</p>
+        <p>Atendemos o cliente que passa pela manhã atrás do pão fresco e também quem planeja com antecedência o bolo, os doces e os salgados de uma comemoração.</p>
+      </div>
+      <aside class="ficha" aria-label="Dados da empresa">
+        <h3>🏢 Dados da empresa</h3>
+        <dl>
+          <dt>Razão social</dt><dd>61.242.928 Monique Estefani dos Santos Pinheiro</dd>
+          <dt>CNPJ</dt><dd>61.242.928/0001-77</dd>
+          <dt>Porte</dt><dd>Microempreendedor Individual (MEI)</dd>
+          <dt>Natureza jurídica</dt><dd>Empresário (Individual)</dd>
+          <dt>Abertura</dt><dd>10/06/2025</dd>
+          <dt>Atividade principal</dt><dd>CNAE 10.91-1-02 – Fabricação de produtos de padaria e confeitaria com predominância de produção própria</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
 
-    <!-- Contato -->
-    <section id="contato" class="section bg-gradient">
-        <div class="container">
-            <div class="section-header light">
-                <h2><i class="fas fa-envelope"></i> Fale Conosco</h2>
-                <p>Entre em contato com a Uni.co Comercio S/A</p>
-            </div>
-            <div class="contato-grid">
-                <div class="contato-item">
-                    <i class="fas fa-phone-alt"></i>
-                    <h4>Telefone</h4>
-                    <p>(48) 3024-7777<br>(48) 3205-6400</p>
-                </div>
-                <div class="contato-item">
-                    <i class="fas fa-envelope"></i>
-                    <h4>E-mail</h4>
-                    <p>controladoria@grupounico.com</p>
-                </div>
-                <div class="contato-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <h4>Endereço</h4>
-                    <p>Rua Gercino Machado, 207<br>Beira Rio — Biguaçu/SC<br>CEP: 88164-290</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="sec sec--rosa" id="produtos">
+  <div class="wrap">
+    <h2>Nossos produtos</h2>
+    <p class="sub">Escolha uma categoria para ver o que fazemos. Consulte disponibilidade e valores pelo telefone ou pelo formulário de encomendas.</p>
+    <div class="filtros" role="tablist" aria-label="Categorias">
+      <button class="filtro on" data-f="todos" role="tab">✨ Todos</button>
+      <button class="filtro" data-f="paes" role="tab">🍞 Pães</button>
+      <button class="filtro" data-f="bolos" role="tab">🎂 Bolos</button>
+      <button class="filtro" data-f="doces" role="tab">🍫 Doces</button>
+      <button class="filtro" data-f="salgados" role="tab">🥟 Salgados</button>
+    </div>
+    <div class="grade" id="grade">
+      <article class="card" data-c="paes"><span class="card__ico">🥖</span><h3>Pão francês</h3><p>Casca crocante e miolo macio, assado em fornadas ao longo do dia.</p></article>
+      <article class="card" data-c="paes"><span class="card__ico">🍞</span><h3>Pão de leite e integral</h3><p>Opções macias para o lanche e versões integrais para o dia a dia.</p></article>
+      <article class="card" data-c="paes"><span class="card__ico">🥐</span><h3>Folhados e roscas</h3><p>Massas amanteigadas, doces ou recheadas, ótimas com café.</p></article>
+      <article class="card" data-c="bolos"><span class="card__ico">🎂</span><h3>Bolos de festa</h3><p>Decorados sob encomenda, com massas e recheios à sua escolha.</p></article>
+      <article class="card" data-c="bolos"><span class="card__ico">🧁</span><h3>Cupcakes e mini bolos</h3><p>Porções individuais para festas, lembrancinhas e presentes.</p></article>
+      <article class="card" data-c="bolos"><span class="card__ico">🍰</span><h3>Tortas e cheesecakes</h3><p>Sobremesas cremosas, inteiras ou em fatias.</p></article>
+      <article class="card" data-c="doces"><span class="card__ico">🍫</span><h3>Brigadeiros e trufas</h3><p>Sabores clássicos e especiais, em caixas ou por cento.</p></article>
+      <article class="card" data-c="doces"><span class="card__ico">🍩</span><h3>Rosquinhas e biscoitos</h3><p>Para o cafezinho da tarde e para presentear.</p></article>
+      <article class="card" data-c="doces"><span class="card__ico">🍮</span><h3>Sobremesas de pote</h3><p>Camadas cremosas, prontas para levar e saborear.</p></article>
+      <article class="card" data-c="salgados"><span class="card__ico">🥟</span><h3>Salgados assados</h3><p>Esfihas, empadas e folhados, com massa leve e recheio generoso.</p></article>
+      <article class="card" data-c="salgados"><span class="card__ico">🧀</span><h3>Salgadinhos para festa</h3><p>Coxinhas, risoles e quibes por cento, para qualquer evento.</p></article>
+      <article class="card" data-c="salgados"><span class="card__ico">🥪</span><h3>Sanduíches e lanches</h3><p>Opções práticas para o almoço rápido ou reuniões.</p></article>
+    </div>
+    <p class="aviso">Os itens variam conforme o dia e a produção. Confirme sempre pelo telefone.</p>
+  </div>
+</section>
 
-    <!-- Política de Privacidade -->
-    <section id="privacidade" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2><i class="fas fa-shield-alt"></i> Política de Privacidade</h2>
-                <p>Transparência e proteção dos seus dados pessoais (LGPD)</p>
-            </div>
-            <div class="privacidade-content">
-                <div class="privacidade-card">
-                    <h3>1. Introdução</h3>
-                    <p>A <strong>Uni.co Comercio S/A</strong>, inscrita no CNPJ nº 00.399.603/0006-12, com sede em Biguaçu/SC, está comprometida com a privacidade, transparência e proteção dos dados pessoais de seus usuários, clientes, parceiros e visitantes do site.</p>
-                    <p>Esta Política de Privacidade foi elaborada em conformidade com a <strong>Lei Geral de Proteção de Dados Pessoais (LGPD — Lei nº 13.709/2018)</strong> e demais legislações aplicáveis, e tem como objetivo informar como coletamos, usamos, armazenamos, compartilhamos e protegemos suas informações.</p>
-                    <p>Ao acessar e utilizar este site, você declara estar ciente e de acordo com as práticas descritas nesta política. Caso não concorde, recomendamos que interrompa a navegação.</p>
-                </div>
+<section class="sec" id="diferenciais">
+  <div class="wrap">
+    <h2>Por que escolher a gente</h2>
+    <div class="dif">
+      <div class="dif__item"><span>🌾</span><h3>Ingredientes selecionados</h3><p>Escolhemos farinhas, chocolates e recheios com cuidado para manter sabor e consistência.</p></div>
+      <div class="dif__item"><span>👩‍🍳</span><h3>Feito à mão</h3><p>Receitas próprias e produção artesanal, sem atalhos que tiram o sabor.</p></div>
+      <div class="dif__item"><span>🎨</span><h3>Personalização</h3><p>Tema, cores, recheio e tamanho combinados com você antes de ir ao forno.</p></div>
+      <div class="dif__item"><span>🧼</span><h3>Higiene e segurança</h3><p>Manipulação de alimentos com boas práticas e atenção à validade de cada produto.</p></div>
+      <div class="dif__item"><span>⏰</span><h3>Pontualidade</h3><p>Seu pedido pronto no dia e horário combinados, sem correria de última hora.</p></div>
+      <div class="dif__item"><span>💬</span><h3>Atendimento direto</h3><p>Você fala com quem produz. Tira dúvidas, ajusta o pedido e acompanha tudo de perto.</p></div>
+    </div>
+  </div>
+</section>
 
-                <div class="privacidade-card">
-                    <h3>2. Dados Pessoais Coletados</h3>
-                    <p>Podemos coletar as seguintes categorias de dados pessoais, dependendo da sua interação conosco:</p>
-                    <ul>
-                        <li><strong>Dados de identificação e contato:</strong> nome completo, e-mail, telefone, endereço, CPF/CNPJ (quando necessário para fins comerciais ou fiscais);</li>
-                        <li><strong>Dados de navegação:</strong> endereço IP, tipo de navegador, dispositivo utilizado, páginas visitadas, tempo de permanência e localização geográfica aproximada;</li>
-                        <li><strong>Dados de comunicação:</strong> conteúdo de mensagens enviadas por formulários de contato, e-mails ou outros canais de atendimento;</li>
-                        <li><strong>Dados de cookies e tecnologias similares:</strong> preferências de navegação e identificadores armazenados no dispositivo.</li>
-                    </ul>
-                    <p><strong>Não coletamos intencionalmente dados pessoais sensíveis</strong> (origem racial ou étnica, convicção religiosa, opinião política, dados de saúde, biometria, etc.), salvo quando estritamente necessário e com base legal específica.</p>
-                </div>
+<section class="sec sec--amarelo" id="como">
+  <div class="wrap">
+    <h2>Como encomendar</h2>
+    <ol class="passos">
+      <li><span>1</span><h3>Conte o que precisa</h3><p>Escolha produtos, quantidade e data pelo formulário ou por telefone.</p></li>
+      <li><span>2</span><h3>Receba a confirmação</h3><p>Retornamos com disponibilidade, valores e prazo de produção.</p></li>
+      <li><span>3</span><h3>Combine o pagamento</h3><p>Fechamos os detalhes e reservamos a sua data na agenda.</p></li>
+      <li><span>4</span><h3>Retire ou combine a entrega</h3><p>Seu pedido fica pronto e embalado com cuidado.</p></li>
+    </ol>
+  </div>
+</section>
 
-                <div class="privacidade-card">
-                    <h3>3. Finalidades do Tratamento</h3>
-                    <p>Seus dados pessoais podem ser utilizados para as seguintes finalidades:</p>
-                    <ul>
-                        <li>Responder a solicitações, dúvidas e pedidos de informações enviados por meio dos canais de contato;</li>
-                        <li>Fornecer suporte comercial e operacional relacionado aos produtos e serviços do Grupo Uni.co;</li>
-                        <li>Enviar comunicações informativas, promocionais e institucionais, mediante consentimento ou legítimo interesse;</li>
-                        <li>Melhorar a experiência de navegação, personalizar conteúdo e analisar o desempenho do site;</li>
-                        <li>Cumprir obrigações legais, regulatórias e fiscais;</li>
-                        <li>Prevenir fraudes e garantir a segurança das operações.</li>
-                    </ul>
-                </div>
+<section class="sec" id="encomendas">
+  <div class="wrap enc">
+    <div>
+      <h2>Faça sua encomenda</h2>
+      <p>Preencha o formulário e seu e-mail será aberto com a mensagem pronta para enviar. Preferiu falar com a gente? Ligue para <a href="tel:+556932256510"><strong>(69) 3225-6510</strong></a>.</p>
+      <ul class="lista-ico">
+        <li>📅 Encomendas grandes: peça com a maior antecedência possível.</li>
+        <li>🎂 Informe o tema, o número de convidados e o sabor desejado.</li>
+        <li>📍 Retirada na Avenida Rio de Janeiro, 2643.</li>
+      </ul>
+    </div>
+    <form id="form" class="form" novalidate>
+      <label>Nome<input type="text" id="nome" autocomplete="name" required></label>
+      <label>Telefone<input type="tel" id="tel" autocomplete="tel" placeholder="(69) 90000-0000" required></label>
+      <label>Tipo de produto
+        <select id="tipo" required>
+          <option value="">Selecione</option>
+          <option>Bolo de festa</option><option>Doces</option><option>Salgados</option><option>Pães e lanches</option><option>Tortas e sobremesas</option><option>Outro</option>
+        </select>
+      </label>
+      <label>Data desejada<input type="date" id="data" required></label>
+      <label>Detalhes do pedido<textarea id="msg" rows="4" placeholder="Quantidade, sabores, tema, observações..."></textarea></label>
+      <label class="check"><input type="checkbox" id="aceite" required> Li e concordo com a <a href="#privacidade">Política de Privacidade</a>.</label>
+      <p class="erro" id="erro" role="alert" hidden></p>
+      <button class="btn btn--rosa" type="submit">📨 Enviar pedido</button>
+    </form>
+  </div>
+</section>
 
-                <div class="privacidade-card">
-                    <h3>4. Bases Legais</h3>
-                    <p>O tratamento de dados pessoais realizado pela Uni.co Comercio S/A fundamenta-se nas seguintes bases legais previstas na LGPD (Art. 7º):</p>
-                    <ul>
-                        <li><strong>Consentimento do titular:</strong> para envio de comunicações de marketing e uso de cookies não essenciais;</li>
-                        <li><strong>Execução de contrato ou procedimentos preliminares:</strong> para viabilizar relações comerciais e prestação de serviços;</li>
-                        <li><strong>Cumprimento de obrigação legal ou regulatória:</strong> para atender exigências fiscais, contábeis e regulatórias;</li>
-                        <li><strong>Legítimo interesse do controlador:</strong> para melhoria de serviços, segurança e prevenção a fraudes, sempre respeitando os direitos e liberdades do titular;</li>
-                        <li><strong>Exercício regular de direitos:</strong> em processos administrativos, judiciais ou arbitrais.</li>
-                    </ul>
-                </div>
+<section class="sec sec--rosa" id="faq">
+  <div class="wrap faq">
+    <h2>Perguntas frequentes</h2>
+    <details><summary>Com quanto tempo de antecedência devo encomendar?</summary><p>Para bolos decorados e pedidos grandes, recomendamos entrar em contato o quanto antes. Pedidos pequenos podem ser atendidos conforme a agenda de produção.</p></details>
+    <details><summary>Vocês fazem entrega?</summary><p>A retirada é feita em nosso endereço. Para entregas, consulte disponibilidade e condições pelo telefone.</p></details>
+    <details><summary>Posso personalizar sabores e decoração?</summary><p>Sim. Combine conosco massa, recheio, cobertura e tema antes de confirmar o pedido.</p></details>
+    <details><summary>Quais formas de pagamento são aceitas?</summary><p>As formas de pagamento são informadas no momento da confirmação do pedido.</p></details>
+    <details><summary>Atendem restrições alimentares?</summary><p>Fale com a gente antes de pedir. Informe alergias ou restrições para avaliarmos o que é possível. Nossos produtos podem conter glúten, leite, ovos, soja e oleaginosas.</p></details>
+  </div>
+</section>
 
-                <div class="privacidade-card">
-                    <h3>5. Compartilhamento de Dados</h3>
-                    <p>A Uni.co Comercio S/A poderá compartilhar dados pessoais com:</p>
-                    <ul>
-                        <li><strong>Empresas do Grupo Uni.co:</strong> para fins de gestão centralizada e operações integradas das marcas Imaginarium, Puket, MinD e Love Brands;</li>
-                        <li><strong>Prestadores de serviços:</strong> parceiros que auxiliam na operação do site, hospedagem, análise de dados, envio de comunicações e atendimento, sempre mediante contratos que garantam a proteção dos dados;</li>
-                        <li><strong>Autoridades públicas:</strong> quando exigido por lei, regulamento ou decisão judicial.</li>
-                    </ul>
-                    <p><strong>Não vendemos, alugamos ou comercializamos dados pessoais</strong> com terceiros para finalidades alheias às descritas nesta política.</p>
-                </div>
+<section class="sec" id="contato">
+  <div class="wrap">
+    <h2>Contato e localização</h2>
+    <div class="contatos">
+      <a class="ct" href="tel:+556932256510"><span>📞</span><strong>Telefone</strong>(69) 3225-6510</a>
+      <a class="ct" href="mailto:monythaylla3026@gmail.com"><span>✉️</span><strong>E-mail</strong>monythaylla3026@gmail.com</a>
+      <a class="ct" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Avenida+Rio+de+Janeiro+2643+Porto+Velho+RO+76804-391"><span>📍</span><strong>Endereço</strong>Av. Rio de Janeiro, 2643, Mato Grosso, Porto Velho – RO, 76804-391</a>
+    </div>
+  </div>
+</section>
 
-                <div class="privacidade-card">
-                    <h3>6. Cookies e Tecnologias Similares</h3>
-                    <p>Utilizamos cookies e tecnologias similares para melhorar sua experiência de navegação. Os cookies podem ser classificados em:</p>
-                    <ul>
-                        <li><strong>Essenciais:</strong> necessários para o funcionamento básico do site. Não podem ser desativados;</li>
-                        <li><strong>Analíticos/Desempenho:</strong> coletam informações sobre como os usuários interagem com o site, ajudando a melhorá-lo;</li>
-                        <li><strong>Funcionais:</strong> permitem que o site lembre preferências e escolhas (idioma, região, etc.);</li>
-                        <li><strong>Marketing/Publicidade:</strong> utilizados para exibir anúncios mais relevantes aos seus interesses.</li>
-                    </ul>
-                    <p>Você pode gerenciar suas preferências de cookies a qualquer momento nas configurações do seu navegador. A desativação de determinados cookies pode afetar a funcionalidade do site.</p>
-                </div>
+<section class="sec sec--privacidade" id="privacidade">
+  <div class="wrap priv">
+    <h2>Política de Privacidade</h2>
+    <p class="atual">Última atualização: <span id="dataAtual">31/10/2026</span></p>
+    <nav class="toc" aria-label="Índice da política">
+      <a href="#p1">1. Quem somos</a><a href="#p2">2. Dados coletados</a><a href="#p3">3. Finalidades</a><a href="#p4">4. Cookies</a><a href="#p5">5. Google Ads e Analytics</a><a href="#p6">6. Compartilhamento</a><a href="#p7">7. Armazenamento e segurança</a><a href="#p8">8. Seus direitos</a><a href="#p9">9. Crianças</a><a href="#p10">10. Alterações</a><a href="#p11">11. Contato</a>
+    </nav>
 
-                <div class="privacidade-card">
-                    <h3>7. Direitos do Titular</h3>
-                    <p>Nos termos do Art. 18 da LGPD, você tem direito a:</p>
-                    <ul>
-                        <li>Confirmação da existência de tratamento de seus dados;</li>
-                        <li>Acesso aos dados pessoais tratados;</li>
-                        <li>Correção de dados incompletos, inexatos ou desatualizados;</li>
-                        <li>Anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com a LGPD;</li>
-                        <li>Portabilidade dos dados a outro fornecedor, mediante requisição expressa;</li>
-                        <li>Eliminação dos dados tratados com consentimento, exceto nas hipóteses de conservação previstas em lei;</li>
-                        <li>Informação sobre entidades com as quais seus dados foram compartilhados;</li>
-                        <li>Revogação do consentimento a qualquer momento.</li>
-                    </ul>
-                    <p>Para exercer seus direitos, entre em contato pelo e-mail: <strong>controladoria@grupounico.com</strong>, com o assunto "LGPD — Direitos do Titular". Responderemos em prazo razoável, conforme a legislação aplicável.</p>
-                </div>
+    <h3 id="p1">1. Quem somos</h3>
+    <p>Esta política explica como a empresa <strong>61.242.928 Monique Estefani dos Santos Pinheiro</strong>, nome de fantasia Monique Pinheiro Padaria e Confeitaria, CNPJ 61.242.928/0001-77, com sede na Avenida Rio de Janeiro, 2643, bairro Mato Grosso, Porto Velho – RO, CEP 76804-391, trata dados pessoais de quem visita este site e solicita nossos produtos. Atuamos como <strong>controladora</strong> dos dados, nos termos da Lei Geral de Proteção de Dados (Lei nº 13.709/2018, a LGPD).</p>
 
-                <div class="privacidade-card">
-                    <h3>8. Segurança dos Dados</h3>
-                    <p>A Uni.co Comercio S/A adota medidas técnicas e administrativas adequadas para proteger seus dados pessoais contra acessos não autorizados, perda, destruição, alteração ou qualquer forma de tratamento inadequado.</p>
-                    <p>Essas medidas incluem controles de acesso, criptografia quando aplicável, monitoramento de sistemas e políticas internas de segurança da informação. No entanto, nenhum sistema é completamente imune a incidentes, e nos comprometemos a notificar os titulares e a Autoridade Nacional de Proteção de Dados (ANPD) em caso de incidente relevante, conforme exigido pela LGPD.</p>
-                </div>
+    <h3 id="p2">2. Dados que coletamos</h3>
+    <p><strong>Informados por você:</strong> nome, telefone, e-mail, data desejada e detalhes do pedido, quando você preenche o formulário de encomendas ou entra em contato conosco.</p>
+    <p><strong>Coletados automaticamente:</strong> endereço IP, tipo de navegador e dispositivo, páginas visitadas, tempo de permanência e origem do acesso, por meio de cookies e tecnologias semelhantes.</p>
+    <p>Não coletamos dados pessoais sensíveis por este site e não solicitamos dados de cartão de pagamento no formulário.</p>
 
-                <div class="privacidade-card">
-                    <h3>9. Retenção e Eliminação</h3>
-                    <p>Os dados pessoais serão mantidos apenas pelo tempo necessário para cumprir as finalidades para as quais foram coletados, incluindo obrigações legais, regulatórias, contratuais e o exercício regular de direitos.</p>
-                    <p>Após o término do tratamento, os dados serão eliminados ou anonimizados, salvo nas hipóteses de conservação previstas no Art. 16 da LGPD (cumprimento de obrigação legal, estudo por órgão de pesquisa, transferência a terceiro mediante requisitos, ou uso exclusivo do controlador com anonimização).</p>
-                </div>
+    <h3 id="p3">3. Para que usamos seus dados</h3>
+    <ul>
+      <li>Responder a dúvidas e solicitações de orçamento;</li>
+      <li>Confirmar, produzir e entregar ou disponibilizar para retirada os pedidos;</li>
+      <li>Cumprir obrigações legais, fiscais e regulatórias;</li>
+      <li>Melhorar o funcionamento, a segurança e a experiência do site;</li>
+      <li>Medir o desempenho de anúncios e exibir publicidade mais relevante, quando você autorizar o uso de cookies de marketing.</li>
+    </ul>
+    <p>As bases legais são, conforme o caso, a execução de contrato ou de procedimentos preliminares a pedido do titular, o cumprimento de obrigação legal, o legítimo interesse e o seu consentimento.</p>
 
-                <div class="privacidade-card">
-                    <h3>10. Atualizações desta Política</h3>
-                    <p>Esta Política de Privacidade pode ser atualizada periodicamente para refletir mudanças nas práticas de tratamento de dados, na legislação aplicável ou em nossos serviços. A versão mais recente estará sempre disponível neste site, com a data de última atualização.</p>
-                    <p>Recomendamos que você revise esta política regularmente. O uso contínuo do site após eventuais alterações constitui aceitação das novas condições.</p>
-                </div>
+    <h3 id="p4">4. Cookies</h3>
+    <p>Cookies são pequenos arquivos gravados no seu navegador. Utilizamos:</p>
+    <ul>
+      <li><strong>Essenciais:</strong> necessários para o funcionamento do site e para lembrar sua escolha sobre cookies;</li>
+      <li><strong>Estatísticos:</strong> ajudam a entender como o site é usado, de forma agregada;</li>
+      <li><strong>De marketing:</strong> usados por serviços de publicidade para medir conversões e exibir anúncios.</li>
+    </ul>
+    <p>Você pode aceitar ou recusar cookies não essenciais no aviso exibido no site e pode apagá-los ou bloqueá-los a qualquer momento nas configurações do navegador. Algumas funções podem ser afetadas se você bloquear cookies essenciais.</p>
+    <p><button class="btn btn--mini" id="reabrirCookies" type="button">🍪 Alterar minha escolha de cookies</button></p>
 
-                <div class="privacidade-card">
-                    <h3>11. Contato do Controlador</h3>
-                    <p>Para questões relacionadas à privacidade e proteção de dados, entre em contato:</p>
-                    <ul>
-                        <li><strong>Empresa:</strong> Uni.co Comercio S/A</li>
-                        <li><strong>CNPJ:</strong> 00.399.603/0006-12</li>
-                        <li><strong>Endereço:</strong> Rua Gercino Machado, 207 — Beira Rio — Biguaçu/SC — CEP 88164-290</li>
-                        <li><strong>E-mail:</strong> controladoria@grupounico.com</li>
-                        <li><strong>Telefone:</strong> (48) 3024-7777 / (48) 3205-6400</li>
-                    </ul>
-                    <p class="privacidade-data"><i class="fas fa-calendar-check"></i> Última atualização: Outubro de 2026</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <h3 id="p5">5. Google Ads, Google Analytics e publicidade</h3>
+    <p>Este site pode usar serviços do Google, como Google Ads e Google Analytics, para medir audiência e a eficácia de campanhas. Esses serviços usam cookies para coletar informações sobre sua navegação e podem ser usados para <strong>remarketing</strong>, isto é, exibir anúncios da nossa empresa para pessoas que já visitaram o site, inclusive em outros sites da rede do Google.</p>
+    <ul>
+      <li>Fornecedores terceiros, incluindo o Google, podem veicular anúncios com base em visitas anteriores ao nosso site;</li>
+      <li>Você pode gerenciar suas preferências de anúncios em <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a>;</li>
+      <li>Você pode desativar a medição do Google Analytics com o <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">complemento de desativação</a>;</li>
+      <li>Saiba como o Google usa dados em <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.</li>
+    </ul>
+    <p>Não enviamos ao Google dados que o identifiquem diretamente, como nome ou telefone, para fins de segmentação de anúncios, e não usamos dados sensíveis para publicidade personalizada.</p>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-grid">
-            <div class="footer-col">
-                <h4><i class="fas fa-cube"></i> Uni.co Comercio S/A</h4>
-                <p>Parte do Grupo Uni.co, levando design, inovação e afeto para lares brasileiros através de marcas amadas.</p>
-            </div>
-            <div class="footer-col">
-                <h4><i class="fas fa-link"></i> Links Rápidos</h4>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#marcas">Marcas</a></li>
-                    <li><a href="#privacidade">Política de Privacidade</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4><i class="fas fa-address-card"></i> Dados</h4>
-                <p>CNPJ: 00.399.603/0006-12</p>
-                <p>Biguaçu/SC — CEP 88164-290</p>
-                <p>controladoria@grupounico.com</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Uni.co Comercio S/A. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+    <h3 id="p6">6. Compartilhamento de dados</h3>
+    <p>Não vendemos seus dados pessoais. Podemos compartilhá-los apenas com: prestadores de serviço necessários à operação (hospedagem, e-mail, análise e publicidade); autoridades públicas, quando houver obrigação legal ou ordem judicial; e profissionais de contabilidade, para fins fiscais. Esses terceiros devem tratar os dados conforme a lei e as finalidades informadas. Alguns, como o Google, podem armazenar dados em servidores fora do Brasil, com as salvaguardas previstas na LGPD.</p>
 
-    <script src="script.js"></script>
+    <h3 id="p7">7. Armazenamento e segurança</h3>
+    <p>Mantemos os dados pelo tempo necessário para cumprir as finalidades descritas, atender obrigações legais e exercer direitos em eventual disputa. Depois disso, eles são eliminados ou anonimizados. Adotamos medidas técnicas e administrativas razoáveis para proteger as informações, mas nenhum sistema é totalmente imune a falhas. Em caso de incidente com risco relevante, comunicaremos os titulares e a Autoridade Nacional de Proteção de Dados (ANPD), conforme a lei.</p>
+
+    <h3 id="p8">8. Seus direitos</h3>
+    <p>Como titular, você pode solicitar a qualquer momento:</p>
+    <ul>
+      <li>Confirmação de que tratamos seus dados e acesso a eles;</li>
+      <li>Correção de dados incompletos, inexatos ou desatualizados;</li>
+      <li>Anonimização, bloqueio ou eliminação de dados desnecessários ou tratados em desconformidade;</li>
+      <li>Portabilidade, nos termos da regulamentação;</li>
+      <li>Informação sobre com quem compartilhamos seus dados;</li>
+      <li>Revogação do consentimento e eliminação dos dados tratados com base nele;</li>
+      <li>Oposição a tratamento realizado com base em legítimo interesse.</li>
+    </ul>
+    <p>Para exercer esses direitos, use o contato da seção 11. Você também pode reclamar à ANPD em <a href="https://www.gov.br/anpd" target="_blank" rel="noopener">gov.br/anpd</a>.</p>
+
+    <h3 id="p9">9. Crianças e adolescentes</h3>
+    <p>Este site não é direcionado a menores de 18 anos e não coletamos intencionalmente dados de crianças ou adolescentes sem o consentimento de um responsável. Se identificarmos esse tipo de coleta, os dados serão excluídos.</p>
+
+    <h3 id="p10">10. Alterações nesta política</h3>
+    <p>Podemos atualizar esta política para refletir mudanças legais ou em nossos serviços. A data da última atualização estará sempre no topo desta seção. Recomendamos consultá-la periodicamente.</p>
+
+    <h3 id="p11">11. Contato do encarregado</h3>
+    <p>Dúvidas, solicitações ou reclamações sobre privacidade e proteção de dados:</p>
+    <ul class="contato-priv">
+      <li>📧 <a href="mailto:monythaylla3026@gmail.com">monythaylla3026@gmail.com</a></li>
+      <li>📞 <a href="tel:+556932256510">(69) 3225-6510</a></li>
+      <li>📍 Avenida Rio de Janeiro, 2643, Mato Grosso, Porto Velho – RO, CEP 76804-391</li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer class="rodape">
+  <div class="wrap rodape__in">
+    <div>
+      <strong>🥐 Monique Pinheiro Padaria &amp; Confeitaria</strong>
+      <p>61.242.928 Monique Estefani dos Santos Pinheiro<br>CNPJ 61.242.928/0001-77 · MEI</p>
+    </div>
+    <div>
+      <p>Av. Rio de Janeiro, 2643, Mato Grosso<br>Porto Velho – RO, 76804-391</p>
+      <p><a href="tel:+556932256510">(69) 3225-6510</a> · <a href="mailto:monythaylla3026@gmail.com">monythaylla3026@gmail.com</a></p>
+    </div>
+    <div><a href="#privacidade">Política de Privacidade</a></div>
+  </div>
+  <p class="copy">© <span id="ano">2026</span> Monique Pinheiro Padaria e Confeitaria. Todos os direitos reservados.</p>
+</footer>
+
+<a href="tel:+556932256510" class="flutua" aria-label="Ligar agora">📞</a>
+<button class="subir" id="subir" aria-label="Voltar ao topo" hidden>⬆️</button>
+
+<div class="cookies" id="cookies" role="dialog" aria-label="Aviso de cookies" hidden>
+  <p>🍪 Usamos cookies essenciais e, com sua permissão, cookies estatísticos e de marketing (como Google Ads). Saiba mais na <a href="#privacidade">Política de Privacidade</a>.</p>
+  <div>
+    <button class="btn btn--mini" id="cookRecusar" type="button">Só essenciais</button>
+    <button class="btn btn--rosa btn--mini" id="cookAceitar" type="button">Aceitar todos</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
